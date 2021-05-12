@@ -1,3 +1,4 @@
+```vim
 "File created on April 5, 2021
 "Initial configuration
 set nocp
@@ -21,15 +22,15 @@ set mat=2
 let mapleader = ","
 let maplocalleader = "\\"
 function Change_LineNumber()
-	"echom "Toggle between showing line number, relative number and no number" 
-	if &number == 1 && &relativenumber == 0
-		set nonumber | set relativenumber
-	elseif &number == 0 && &relativenumber == 1
-		set norelativenumber | set nonumber
-	else 
-		set number | set norelativenumber
-	endif 
-	return 0
+    "echom "Toggle between showing line number, relative number and no number" 
+    if &number == 1 && &relativenumber == 0
+        set nonumber | set relativenumber
+    elseif &number == 0 && &relativenumber == 1
+        set norelativenumber | set nonumber
+    else 
+        set number | set norelativenumber
+    endif 
+    return 0
 endfunction
 "set foldcolumn=1
 "nmap <C-L> :call Change_LineNumber()<CR> 
@@ -86,3 +87,4 @@ vnoremap <Down> <Nop>
 vnoremap <Left> <Nop>
 vnoremap <Right> <Nop>
 vnoremap <Up> <Nop>
+```
