@@ -1,4 +1,6 @@
-!1. swap capslock and ctrl_L keys, Create file .xmodmap_capslock in home with following content
+!1. swap capslock and ctrl_L keys, Create file .xmodmap_capslock in home with following content 
+!For single run following command 
+!xmodmap ~/.xmodmap_capslock
 ```
 remove Lock = Caps_Lock
 remove Control = Control_L
